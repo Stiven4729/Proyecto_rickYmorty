@@ -1,0 +1,15 @@
+<app-head></app-head>
+<div class="card-container">
+    <mat-card class="card" *ngFor="let item of characters.results" (click)="openDialog(item)">
+      <mat-card-header>
+        <div mat-card-avatar class="avatar">
+          <img [src]="item.image" alt="Character image">
+        </div>
+        <mat-card-title>{{ item.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Status: {{ item.status }}</p>
+        <p>Species: {{ item.species }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>

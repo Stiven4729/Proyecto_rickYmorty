@@ -1,0 +1,55 @@
+.Head {
+    background-color: rgba(127, 208, 255, 0.696);
+    width: 100%;
+    height: 8%;
+    padding-top: 10px;
+}
+
+.logo {
+    padding-left: 5px;
+    color:aliceblue;
+}
+.letra {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.N {
+    padding-left: 20px;
+    text-align: center;
+}
+
+.hover-effect {
+    width: 180px;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color 0,5s, color 0,5s;
+  }
+  
+  .hover-effect p {
+    margin: 0;
+  }
+  
+  /* Estilos cuando el mouse está sobre el elemento */
+  .hover-effect:hover {
+    background-color:  #333;
+    color: #fff;
+    
+}
+
+.img1 {
+    padding-left: 10px;
+    width: 40px;
+    height:  40px;
+}
+
+.img2 {
+    padding-left: 1000px;
+    width: 40px;
+    height:  40px;
+}
+  
+  
+  
+  
+  
